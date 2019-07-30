@@ -5,13 +5,13 @@ import boto3
 client = boto3.client('budgets')
 
 #Set this to your Slack Incoming Webhook URL (https://api.slack.com/apps)
-webhook = "https://hooks.slack.com/services/T02XXX7V/B9R0YXXXU/3Cb0XXX9MGKIfhM6gXXXR6V"
+webhook = "WEBHOOK"
 
 #Set this string to the name of the AWS Budget you wish to monitor
 budgetName = "Monthly AWS Budget"
 
 #Set this value to your account ID
-accID = '123443214608'
+accID = 'DONTPOSTME'
 
 #Lambda entry point
 def lambda_handler(event, context):
